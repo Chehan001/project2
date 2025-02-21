@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 11vh 90vh;
+    background: url('./assest/background.png') no-repeat center center/cover;
+    
+  }
+
+  /* nav bar and logo */
+  .grid1 {
+    background-color: #5EB562;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 50%;
+  }
+  .logo {
+    margin-top: 3px;
+    margin-left: 40px;
+    width: 50px;
+    height: auto;
+  }
+
+  .grid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  .q{
+    background-color: aliceblue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    height: 350px;
+    border-radius: 7px;
+  }
+  .qu{
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  ul li {
+    margin-left: 80px;
+    margin-top: 25px;
+   
+  }
+  ul li label{
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  button{
+    width: 120px;
+    padding: 13px;
+    background-color:#5EB562;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 470px;
+    margin-left: -120px;
+    font-size: 15px;
+  }
+
+  .a{
+    text-decoration:none;
+  }
+
+  header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(12, 0, 0);
+    margin-top: -470px;
+    position: relative;
+  }

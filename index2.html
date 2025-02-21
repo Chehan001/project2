@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid1">
+            <img class="logo" src="assest/3e95e503ea530a8fcca6d960542e23f4.png" alt="Logo" />
+        </div>
+        <div class="grid2" id="quiz">
+            <header>
+                 <h2>Questions <span id="questionNumber">1</span>/5</h2>
+            <div id="timer">00:20</div>
+            </header>
+            <div class="q">
+                <div class="qu"><h2 id="question">Question text will appear here</h2></div>
+                <ul>
+                    <li>
+                        <input class="answer" type="radio" name="answer" id="a">
+                        <label for="a" id="optionA">Option A</label>
+                    </li>
+                    <li>
+                        <input class="answer" type="radio" name="answer" id="b">
+                        <label for="b" id="optionB">Option B</label>
+                    </li>
+                    <li>
+                        <input class="answer" type="radio" name="answer" id="c">
+                        <label for="c" id="optionC">Option C</label>
+                    </li>
+                    <li>
+                        <input class="answer" type="radio" name="answer" id="d">
+                        <label for="d" id="optionD">Option D</label>
+                    </li>
+                     
+                </ul>
+              
+            </div>
+            <button id="submit">Next</button>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
